@@ -1,0 +1,100 @@
+  323  ls
+  324  zip science.txt.zip
+  325  gzip science.txt
+  326  zip science.txt.zip
+  327  clear
+  328  unzip science.txt.zip
+  329  unzip science.txt
+  330  clear
+  331  ls
+  332  gunzip science.txt
+  333  unzip science.txt
+  334  clear
+  335  zip science.txt
+  336  zip science.txt.zip
+  337  clear
+  338  tar czf mydir.tar.gz mydir
+  339  mkdir mydir
+  340  tar czf mydir.tar.gz mydir
+  341  ls
+  342  tar czf mydir.tar.gz mydir
+  343  tar xf mydir.tar.gz
+  344  ls
+  345  clear
+  346  ls
+  347  tar xf mydir.tar.gz
+  348  ls
+  349  clear
+  350  file *
+  351  cut­ -d DELIM ­-f1,2,3 file.txt
+  352  clear
+  353  cut 
+  354  cut -d ' ' -f1 /etc/resolv.conf
+  355  cat myfile | cut -c 80
+  356  touch myfile
+  357  ls
+  358  touch myfile
+  359  ls
+  360  cat myfile | cut -c 80
+  361  more myfile
+  362  cat mylist.txt
+  363  cat > mylist.txt
+  364  cat mylist.txt
+  365  clear
+  366  uniq mylist.txt
+  367  sort mylist.txt
+  368  uniq mylist.txt
+  369  sort mylist.txt | uniq
+  370  ls
+  371  clear
+  372  history 
+  373  history (show command history list)
+  374  clear
+  375  !
+  376  history (show command history list)
+  377  grep -ivc science science.txt (recall last command starting with grep)
+  378  clear
+  379  set history=100
+  380  history 
+  381  clear
+  382  scho $SHELL
+  383  echo $SHELL
+  384  echo $USER
+  385  echo $HOME
+  386  $DISPLAY
+  387  echo $DISPLAY
+  388  echo $PATH
+  389  clear
+  390  $DISPLAY
+  391  $DISPLAYprintenv | more
+  392  printenv | more
+  393  export VAR=value
+  394  source envs.sh
+  395  clear
+  396  source . envs.sh
+  397  source envs.sh
+  398  clear
+  399  ls
+  400  cd unixstuff
+  401  source envs.sh
+  402  echo $ncpus
+  403  source ~/.bashrc
+  404  clear
+  405  export PATH
+  406  ls
+  407  clear
+  408  export PATH=$PATH:$HOME/units174/bin
+  409  huh
+  410  clear
+  411  cd; units
+  412  clear
+  413  ls
+  414  ls *.md
+  415  cd ..
+  416  ls
+  417  cd
+  418  cd 1655/Homework/HW01
+  419  ls
+  420  ls *.md
+  421  more README.md
+  422  history 100 > history.txt
